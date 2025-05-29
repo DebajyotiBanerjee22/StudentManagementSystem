@@ -1,6 +1,6 @@
 # StudentManagementSystem- Java Project
 A complete backend project built using Java SE, MySQL, JDBC, and Apache NetBeans (JDK 24) for managing students, their academic and contact details, streams, departments, and subjects. This project follows an MVC-like separation of DAO and Model classes.
-🔧 Technologies Used
+Technologies Used
 Java JDK 24
 NetBeans IDE
 MySQL (Tested on version with JDBC driver mysql-connector-java-9.3.0.jar)
@@ -88,15 +88,15 @@ select * from student_subject;
 
 # Dont forget to use the query 'Use studentdb'
 
-🧠 ER Diagram
+ER Diagram
 The ER diagram for the project is stored in the ER model.pdf file
  1:1 → Student ↔ Contact
  1:N → Department → Stream, Stream → Student
  M:N → Student ↔ Subject (via StudentSubject)
 
- 🧩 UML Class Diagram
+UML Class Diagram
 View the class diagram here:
-📎 Editor _ Mermaid Chart-2025-05-27-181424.png 
+Chart-2025-05-27-181424.png 
 This includes:
 Entity classes
 DAO classes
@@ -208,9 +208,9 @@ Phone: 9999554321 | Email: junip@gmail.com
 9. Assign Subject to Student
 10. Exit
 
-# ✅ Also includes tested outputs for adding, viewing, updating, deleting students and assigning subjects.
+# Also includes tested outputs for adding, viewing, updating, deleting students and assigning subjects.
 
-📝 How to Run
+#How to Run
 Open the project in NetBeans.
 Ensure MySQL server is running and database studentdb is created.
 Execute the SQL from SQL stmnt Student Database.txt.
