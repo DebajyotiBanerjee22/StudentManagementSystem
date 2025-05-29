@@ -13,27 +13,24 @@ student-management-system/
 ├── src/student/management/system/
 │   ├── Main.java
 │   ├── Conn.java
-│   ├── [Model Classes]
-│   │   ├── Student.java
-│   │   ├── Contact.java
-│   │   ├── Department.java
-│   │   ├── Stream.java
-│   │   ├── Subject.java
-│   │   └── StudentSubject.java
-│   ├── [DAO Classes]
-│   │   ├── StudentDAO.java
-│   │   ├── ContactDAO.java
-│   │   ├── DepartmentDAO.java
-│   │   ├── StreamDAO.java
-│   │   ├── SubjectDAO.java
-│   │   └── StudentSubjectDAO.java
+│   ├── Student.java
+│   ├── Contact.java
+│   ├── Department.java
+│   ├── Stream.java
+│   ├── Subject.java
+|   ├── StudentSubject.java
+│   ├── StudentDAO.java
+│   ├── ContactDAO.java
+│   ├── DepartmentDAO.java
+│   ├── StreamDAO.java
+│   ├── SubjectDAO.java
+│   ├── StudentSubjectDAO.java
 │
 ├── lib/
 │   └── mysql-connector-java-9.3.0.jar
-│
 ├── SQL stmnt Student Database.txt
 ├── ER model.pdf
-└── Editor _ Mermaid Chart-2025-05-27-181424.png
+└── Class Flow-Chart-2025-05-27-181424.png
 
 
 # Open MySQL Workbench on your PC then move to your localHost Database Management Space then follow the instructions given below
