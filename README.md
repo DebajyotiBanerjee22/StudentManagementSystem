@@ -1,6 +1,6 @@
 # StudentManagementSystem- Java Project
 A complete backend project built using Java SE, MySQL, JDBC, and Apache NetBeans (JDK 24) for managing students, their academic and contact details, streams, departments, and subjects. This project follows an MVC-like separation of DAO and Model classes.
-Technologies Used
+# Technologies Used
 Java JDK 24
 NetBeans IDE
 MySQL (Tested on version with JDBC driver mysql-connector-java-9.3.0.jar)
@@ -25,7 +25,6 @@ student-management-system/
 │   ├── StreamDAO.java
 │   ├── SubjectDAO.java
 │   ├── StudentSubjectDAO.java
-│
 ├── lib/
 │   └── mysql-connector-java-9.3.0.jar
 ├── SQL stmnt Student Database.txt
